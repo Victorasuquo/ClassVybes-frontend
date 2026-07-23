@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-07-23T07:05:12Z",
+  "title": "Design System: ClassVybes",
+  "extensions": {
+    "colorMeta": {
+      "committed-cobalt": {
+        "role": "primary",
+        "displayName": "Committed Cobalt",
+        "canonical": "oklch(0.55 0.105 230)",
+        "tonalRamp": [
+          "oklch(0.15 0.05 230)",
+          "oklch(0.25 0.07 230)",
+          "oklch(0.35 0.09 230)",
+          "oklch(0.45 0.10 230)",
+          "oklch(0.55 0.105 230)",
+          "oklch(0.68 0.09 230)",
+          "oklch(0.82 0.06 230)",
+          "oklch(0.95 0.02 230)"
+        ]
+      },
+      "vivid-cobalt": {
+        "role": "primary",
+        "displayName": "Vivid Cobalt",
+        "canonical": "oklch(0.62 0.16 230)",
+        "tonalRamp": [
+          "oklch(0.15 0.06 230)",
+          "oklch(0.25 0.10 230)",
+          "oklch(0.35 0.13 230)",
+          "oklch(0.48 0.15 230)",
+          "oklch(0.62 0.16 230)",
+          "oklch(0.72 0.13 230)",
+          "oklch(0.84 0.08 230)",
+          "oklch(0.95 0.03 230)"
+        ]
+      },
+      "signal-chartreuse": {
+        "role": "secondary",
+        "displayName": "Signal Chartreuse",
+        "canonical": "oklch(0.86 0.19 122)",
+        "tonalRamp": [
+          "oklch(0.15 0.05 122)",
+          "oklch(0.26 0.08 122)",
+          "oklch(0.38 0.12 122)",
+          "oklch(0.50 0.15 122)",
+          "oklch(0.64 0.18 122)",
+          "oklch(0.76 0.19 122)",
+          "oklch(0.86 0.19 122)",
+          "oklch(0.95 0.08 122)"
+        ]
+      },
+      "paper-white": {
+        "role": "neutral",
+        "displayName": "Paper White",
+        "canonical": "oklch(1 0 0)",
+        "tonalRamp": [
+          "oklch(0.15 0 0)",
+          "oklch(0.25 0 0)",
+          "oklch(0.35 0 0)",
+          "oklch(0.48 0 0)",
+          "oklch(0.62 0 0)",
+          "oklch(0.76 0 0)",
+          "oklch(0.90 0 0)",
+          "oklch(1 0 0)"
+        ]
+      },
+      "cool-surface": {
+        "role": "neutral",
+        "displayName": "Cool Surface",
+        "canonical": "oklch(0.965 0.012 230)",
+        "tonalRamp": [
+          "oklch(0.15 0.012 230)",
+          "oklch(0.27 0.012 230)",
+          "oklch(0.39 0.012 230)",
+          "oklch(0.52 0.012 230)",
+          "oklch(0.65 0.012 230)",
+          "oklch(0.78 0.012 230)",
+          "oklch(0.89 0.012 230)",
+          "oklch(0.965 0.012 230)"
+        ]
+      },
+      "ink-navy": {
+        "role": "neutral",
+        "displayName": "Ink Navy",
+        "canonical": "oklch(0.155 0.02 240)",
+        "tonalRamp": [
+          "oklch(0.15 0.02 240)",
+          "oklch(0.26 0.02 240)",
+          "oklch(0.38 0.02 240)",
+          "oklch(0.50 0.02 240)",
+          "oklch(0.62 0.02 240)",
+          "oklch(0.74 0.02 240)",
+          "oklch(0.86 0.02 240)",
+          "oklch(0.95 0.01 240)"
+        ]
+      },
+      "muted-slate": {
+        "role": "neutral",
+        "displayName": "Muted Slate",
+        "canonical": "oklch(0.455 0.03 235)",
+        "tonalRamp": [
+          "oklch(0.15 0.02 235)",
+          "oklch(0.25 0.025 235)",
+          "oklch(0.35 0.03 235)",
+          "oklch(0.455 0.03 235)",
+          "oklch(0.58 0.028 235)",
+          "oklch(0.70 0.025 235)",
+          "oklch(0.83 0.02 235)",
+          "oklch(0.95 0.01 235)"
+        ]
+      },
+      "quiet-line": {
+        "role": "neutral",
+        "displayName": "Quiet Line",
+        "canonical": "oklch(0.865 0.018 230)",
+        "tonalRamp": [
+          "oklch(0.15 0.018 230)",
+          "oklch(0.26 0.018 230)",
+          "oklch(0.38 0.018 230)",
+          "oklch(0.50 0.018 230)",
+          "oklch(0.62 0.018 230)",
+          "oklch(0.74 0.018 230)",
+          "oklch(0.865 0.018 230)",
+          "oklch(0.95 0.01 230)"
+        ]
+      },
+      "danger-red": {
+        "role": "tertiary",
+        "displayName": "Danger Red",
+        "canonical": "oklch(0.56 0.19 28)",
+        "tonalRamp": [
+          "oklch(0.15 0.05 28)",
+          "oklch(0.25 0.09 28)",
+          "oklch(0.36 0.13 28)",
+          "oklch(0.46 0.17 28)",
+          "oklch(0.56 0.19 28)",
+          "oklch(0.68 0.16 28)",
+          "oklch(0.82 0.10 28)",
+          "oklch(0.95 0.04 28)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Hero Display",
+        "purpose": "Short hero statements only."
+      },
+      "headline": {
+        "displayName": "Section Headline",
+        "purpose": "Narrative section openings."
+      },
+      "title": {
+        "displayName": "Feature Title",
+        "purpose": "Feature, step, and genre names."
+      },
+      "body": {
+        "displayName": "Reading Body",
+        "purpose": "Explanations, safety copy, and form guidance."
+      },
+      "label": {
+        "displayName": "Action Label",
+        "purpose": "Buttons, navigation, metadata, and kickers."
+      }
+    },
+    "shadows": [
+      {
+        "name": "cover-lift",
+        "value": "0 8px 8px oklch(0.2 0.05 230 / 0.22)",
+        "purpose": "The generated cover inside the transformation stage only."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Controls, menu transitions, and media reveals."
+      },
+      {
+        "name": "state-fast",
+        "value": "180ms",
+        "purpose": "Hover, focus-adjacent, and button state feedback."
+      },
+      {
+        "name": "story-reveal",
+        "value": "580ms",
+        "purpose": "Source-to-mix-to-track stage changes."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "mobile",
+        "value": "767px"
+      },
+      {
+        "name": "navigation",
+        "value": "1024px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The dominant action for signup, progression, and selected intent.",
+      "html": "<button class=\"ds-button-primary\">See how it works</button>",
+      "css": ".ds-button-primary { min-height: 48px; padding: 12px 22px; border: 1px solid transparent; border-radius: 999px; background: var(--color-signal, oklch(0.86 0.19 122)); color: oklch(0.15 0.02 240); font: 760 1rem/1.2 'Inclusive Sans Variable', system-ui, sans-serif; cursor: pointer; transition: transform 180ms cubic-bezier(0.16, 1, 0.3, 1), background-color 180ms ease; } .ds-button-primary:hover { background: oklch(0.9 0.2 122); transform: translateY(-2px); } .ds-button-primary:active { transform: translateY(1px); } .ds-button-primary:focus-visible { outline: 3px solid var(--color-signal, oklch(0.86 0.19 122)); outline-offset: 4px; }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "A clear alternative action without competing with the signal color.",
+      "html": "<button class=\"ds-button-secondary\">Join early access</button>",
+      "css": ".ds-button-secondary { min-height: 48px; padding: 12px 22px; border: 1px solid var(--color-ink, oklch(0.155 0.02 240)); border-radius: 999px; background: transparent; color: var(--color-ink, oklch(0.155 0.02 240)); font: 760 1rem/1.2 'Inclusive Sans Variable', system-ui, sans-serif; cursor: pointer; transition: transform 180ms cubic-bezier(0.16, 1, 0.3, 1), background-color 180ms ease; } .ds-button-secondary:hover { background: var(--color-surface, oklch(0.965 0.012 230)); transform: translateY(-2px); } .ds-button-secondary:active { transform: translateY(1px); } .ds-button-secondary:focus-visible { outline: 3px solid var(--color-signal, oklch(0.86 0.19 122)); outline-offset: 4px; }"
+    },
+    {
+      "name": "Email Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Plain, high-contrast signup input with an explicit visible label.",
+      "html": "<label class=\"ds-field-label\" for=\"ds-email\">Email address</label><input class=\"ds-field\" id=\"ds-email\" type=\"email\" placeholder=\"you@example.com\">",
+      "css": ".ds-field-label { display: block; margin-bottom: 10px; color: inherit; font: 760 0.94rem/1.2 'Inclusive Sans Variable', system-ui, sans-serif; } .ds-field { width: 100%; min-height: 52px; padding: 12px 16px; border: 1px solid oklch(0.82 0.028 230); border-radius: 10px; background: oklch(0.99 0.006 230); color: oklch(0.15 0.02 240); font: 400 1rem/1.5 'Inclusive Sans Variable', system-ui, sans-serif; } .ds-field:focus-visible { outline: 3px solid var(--color-signal, oklch(0.86 0.19 122)); outline-offset: 4px; } .ds-field[aria-invalid='true'] { border-color: var(--color-danger, oklch(0.56 0.19 28)); }"
+    },
+    {
+      "name": "Header Navigation",
+      "kind": "nav",
+      "description": "A restrained fixed header that lets the hero carry the visual weight.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Primary\"><a href=\"#how\">How it works</a><a href=\"#sound\">Your sound</a><a href=\"#safety\">Safety</a></nav>",
+      "css": ".ds-nav { display: flex; align-items: center; gap: 32px; min-height: 64px; padding: 0 20px; background: var(--color-bg, oklch(1 0 0)); border-bottom: 1px solid var(--color-line, oklch(0.865 0.018 230)); } .ds-nav a { color: var(--color-muted, oklch(0.455 0.03 235)); font: 650 0.92rem/1.2 'Inclusive Sans Variable', system-ui, sans-serif; text-decoration: none; transition: color 180ms ease; } .ds-nav a:hover { color: var(--color-ink, oklch(0.155 0.02 240)); } .ds-nav a:focus-visible { outline: 3px solid var(--color-signal, oklch(0.86 0.19 122)); outline-offset: 4px; }"
+    },
+    {
+      "name": "Study Track Stamp",
+      "kind": "custom",
+      "description": "A compact proof-of-output label laid directly over student photography.",
+      "html": "<div class=\"ds-track-stamp\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M12 3a8 8 0 0 0-8 8v7a2 2 0 0 0 2 2h2v-7H6v-2a6 6 0 0 1 12 0v2h-2v7h2a2 2 0 0 0 2-2v-7a8 8 0 0 0-8-8Z\"/></svg><span>Study track<strong>Cell Structure</strong></span><small>03:18</small></div>",
+      "css": ".ds-track-stamp { display: grid; grid-template-columns: auto 1fr auto; align-items: center; width: min(100%, 410px); gap: 14px; padding: 14px 18px; border-radius: 10px; background: var(--color-signal, oklch(0.86 0.19 122)); color: oklch(0.15 0.02 240); font-family: 'Inclusive Sans Variable', system-ui, sans-serif; } .ds-track-stamp svg { width: 22px; height: 22px; } .ds-track-stamp span { display: grid; font-size: 0.78rem; } .ds-track-stamp strong { font-size: 0.95rem; } .ds-track-stamp small { font-size: 0.78rem; }"
+    },
+    {
+      "name": "Genre Cover",
+      "kind": "card",
+      "description": "A flat, collectible music object with subject context and no decorative card chrome.",
+      "html": "<article class=\"ds-genre\"><div class=\"ds-genre-art\" aria-hidden=\"true\"></div><span>Cell Biology</span><h3>Afrobeats</h3><p>Momentum for a topic that needs repeat plays.</p></article>",
+      "css": ".ds-genre { max-width: 420px; color: oklch(0.99 0.006 230); font-family: 'Inclusive Sans Variable', system-ui, sans-serif; } .ds-genre-art { aspect-ratio: 1; border-radius: 14px; background: var(--color-signal, oklch(0.86 0.19 122)); transition: transform 520ms cubic-bezier(0.16, 1, 0.3, 1); } .ds-genre:hover .ds-genre-art { transform: scale(1.025); } .ds-genre span { display: block; margin-top: 24px; color: oklch(0.99 0.006 230); font-size: 0.86rem; } .ds-genre h3 { margin: 4px 0 0; font: 650 3rem/1.02 'Ojuju Variable', 'Arial Black', sans-serif; letter-spacing: -0.025em; } .ds-genre p { margin: 12px 0 0; color: oklch(0.99 0.006 230); line-height: 1.65; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Annotated Mixtape",
+    "overview": "ClassVybes combines the confidence of a contemporary record sleeve with the clarity of a marked-up lecture note. Editorial scale, culturally specific imagery, flat surfaces, and plain-language safety make the experience energetic without weakening academic trust.",
+    "keyCharacteristics": [
+      "Committed cobalt with rare chartreuse signals",
+      "Ojuju display typography with Inclusive Sans body copy",
+      "Original student photography and square genre artwork",
+      "Generous editorial spacing and asymmetric composition",
+      "Narrative motion with a complete reduced-motion path"
+    ],
+    "rules": [
+      {
+        "name": "The Signal Rule",
+        "body": "Chartreuse occupies less than ten percent of a screen and always means action, selection, or learning focus.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two-Voices Rule",
+        "body": "Display type performs; body type explains.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat-at-Rest Rule",
+        "body": "Cards and controls do not combine visible borders with wide, soft shadows.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do make the source-to-track transformation the central product story.",
+      "Do use real student context and original genre art.",
+      "Do maintain visible focus, semantic structure, and reduced-motion support.",
+      "Do keep generated-output uncertainty and privacy policy visible."
+    ],
+    "donts": [
+      "Don't use generic AI-tool marketing, purple glow, robot imagery, or floating dashboard cards.",
+      "Don't use template EdTech cards, childish primary colors, or stock classroom photography.",
+      "Don't use neon music-app cosplay, autoplay, or decorative waveform overload.",
+      "Don't invent metrics, testimonials, university logos, user counts, or compliance badges.",
+      "Don't use gradients, glassmorphism, oversized rounded-card grids, or emoji icons."
+    ]
+  }
+}

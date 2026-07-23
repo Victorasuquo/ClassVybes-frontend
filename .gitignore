@@ -1,0 +1,11 @@
+node_modules
+dist
+playwright-report
+test-results
+coverage
+.cache
+.DS_Store
+.impeccable/live/*
+!.impeccable/live/config.json
+tmp
+*.log
