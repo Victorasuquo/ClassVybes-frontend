@@ -10,9 +10,9 @@ ClassVybes is a music-led revision concept that turns uploaded study material in
 - GSAP reveals and parallax with reduced-motion fallbacks
 - Light and dark color schemes
 - Local-only early-access form preview
-- SEO, social preview, sitemap, and robots metadata
+- SEO, social preview, and robots metadata
 - Component, browser, responsive, and axe accessibility tests
-- GitHub Actions CI and automatic GitHub Pages deployment
+- GitHub Actions CI and automatic Vercel deployment through the connected repository
 
 The form deliberately does not send or store email addresses. A secure signup service and final privacy policy must be connected before collecting data.
 
@@ -25,7 +25,7 @@ npm ci
 npm run dev
 ```
 
-Vite serves the site under `/ClassVybes-frontend/` to match the GitHub Pages base path.
+Vite serves the site from `/`, matching Vercel's default static deployment path.
 
 ## Quality commands
 
@@ -58,8 +58,4 @@ npx playwright install chromium
 
 ## Deployment
 
-Every push to `main` runs CI and the Pages build workflow. Successful builds deploy the `dist` directory to:
-
-`https://victorasuquo.github.io/ClassVybes-frontend/`
-
-Repository Pages must use GitHub Actions as its build source. The included deployment workflow requests only read, Pages write, and OIDC token permissions.
+Every push to `main` runs frontend CI. The repository's existing Vercel integration handles production deployment automatically using Vite's standard build command and `dist` output.

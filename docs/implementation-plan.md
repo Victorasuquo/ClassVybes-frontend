@@ -48,14 +48,14 @@
 
 ## Deployment
 
-GitHub Pages will deploy from GitHub Actions on every push to `main`.
+The connected Vercel project deploys automatically from GitHub.
 
-- Vite base path: `/ClassVybes-frontend/`
-- Production URL: `https://victorasuquo.github.io/ClassVybes-frontend/`
-- Pull requests run CI without deploying.
-- Main pushes run the full check, upload `dist`, and deploy to the `github-pages` environment.
-- Repository Pages source must be set to GitHub Actions once. This can be configured through the GitHub API if the authenticated account has administration permission.
+- Vite base path: `/`
+- Build command: `npm run build`
+- Output directory: `dist`
+- Pull requests and pushes run frontend CI.
+- Vercel owns preview and production deployment behavior.
 
 ## Future expansion
 
-When indexable product, pricing, safety, or institutional pages are added, evaluate static generation or SSR rather than adding SPA route fallbacks to GitHub Pages.
+When indexable product, pricing, safety, or institutional pages are added, evaluate static generation or SSR rather than adding SPA route fallbacks.
